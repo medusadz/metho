@@ -1,0 +1,94 @@
+@font-face {
+    font-family: DroidKufi;
+    src: url(../fonts/DroidKufi.ttf);
+}
+body {
+	margin:0 auto;
+	height: 100%;
+	width: 100%;
+	background: url("bg.png");
+	font-family: Droidkufi;
+}
+#all {
+    margin: 0px auto;
+	
+}
+h1 {
+	width: 100%;
+    color: #fff;
+    background-color: #167167;
+}
+#home{
+	background-image:url("../res/home.png");
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+ul{
+	padding:0;
+}
+.mou7tawa{
+    display: inline;
+    background: #B66123;
+	    padding: 0 5% 0 5%;
+}
+.mou7tawa a{
+    text-decoration: none;
+    color: #fff;
+}
+.subtitle{
+	text-align: center;
+    width: 100%;
+    background-color: #167167;
+    list-style-type: none;
+    color: #fff;
+}
+p{
+	
+    padding: 0 5% 0 5%;
+    text-align: justify;
+}
+.footer-icon{
+background: #B66123;
+    list-style-type: none;
+height:56px;
+	text-align:center;
+	font-size:30px;	
+}
+.footer-icon a{
+	text-decoration:none;
+	color:#fff;
+
+}
+@media only screen 
+  and (max-width: 720px) {
+img {
+	width: 100%;
+}
+
+}
+@media only screen 
+  and (max-width: 240px) {
+
+}
+@media only screen 
+  and (max-height: 420px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

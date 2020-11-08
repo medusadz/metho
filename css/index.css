@@ -1,0 +1,130 @@
+@font-face {
+    font-family: DroidKufi;
+    src: url(../fonts/DroidKufi.ttf);
+}
+body {
+	margin:82px auto;
+	height: 100%;
+	width: 100%;
+	background: url("../res/bg.png");
+	font-family: Droidkufi;
+}
+#all {
+    margin: 0px auto;
+	
+}
+
+#handel {
+position: fixed;
+width:100%;
+z-index:1;
+top:-16px;
+}
+#handel li {
+	background-color: #B66123;
+    margin: 0;
+	width: 25%;
+    float: right;
+	text-align: center;
+}
+#handel li:hover {
+    background-color: #9C5520;
+
+}
+#handel p {
+    display: block;
+    color: #fff;
+	height: 50px;
+    padding: 0 10 0 10;
+    border-left: #8A3F09 solid 1px;
+}
+#handel ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	position: relative;
+	box-shadow: 0px 3px 6px 1px #8A3F09;
+}
+#handel a:link, a:visited {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 3px;
+    text-decoration: none;
+}
+
+
+#handel ul ul {
+	display: none;
+	color:#fff
+	
+}
+
+#handel ul li:hover > ul {
+		display: block;
+}
+
+#handel ul ul li {
+		float: none;
+		background-color: #2C3E50;
+}
+#lists ul {
+	    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	position: relative;
+}
+
+#lists li {
+    background-color: #167167;
+    margin: 0;
+    width: 100%;
+    border-bottom: #0F5A52 solid 1px;
+}
+#lists li:hover {
+    background-color: #114E47;
+
+}
+#lists a:link, a:visited {
+    display: block;
+    color: #fff;
+    padding: 12px 3px;
+	padding-right:2%;
+    text-decoration: none;
+}
+#list1{
+	display:block;
+}
+#list2{
+	display:none;
+}
+#list3{
+	display:none;
+}
+@media only screen 
+  and (max-width: 419px) {
+
+}
+@media only screen 
+  and (max-width: 240px) {
+
+}
+@media only screen 
+  and (max-height: 420px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
